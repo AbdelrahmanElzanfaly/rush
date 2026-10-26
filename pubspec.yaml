@@ -1,0 +1,27 @@
+name: rush
+description: >-
+  Responsive layout primitives for Flutter: swap between mobile, tablet and
+  desktop layouts, with configurable breakpoints and a graceful fallback chain.
+version: 0.4.0
+repository: https://github.com/khaledSayedAbdellah/rush
+issue_tracker: https://github.com/khaledSayedAbdellah/rush/issues
+
+topics:
+  - responsive
+  - layout
+  - breakpoints
+  - adaptive
+  - ui
+
+environment:
+  sdk: ^3.0.0
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter

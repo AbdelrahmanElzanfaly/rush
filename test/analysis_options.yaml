@@ -1,0 +1,8 @@
+# Inherits the package rules, minus the ones that only make sense for a
+# published API surface. Test helpers are not public API.
+include: ../analysis_options.yaml
+
+linter:
+  rules:
+    public_member_api_docs: false
+    prefer_final_locals: false

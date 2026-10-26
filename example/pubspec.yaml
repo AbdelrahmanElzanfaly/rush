@@ -1,0 +1,21 @@
+name: rush_example
+description: Demonstrates RushWidget, RushBuilder and the context extensions.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rush:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
